@@ -1,0 +1,79 @@
+*{
+    text-align: center;
+}
+   
+
+.newGame{
+   
+    height:50px;
+    width:90px;
+    background-color: bisque;
+    border-radius: 15px;
+    border:none;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+
+.restart{
+    height:50px;
+    width:90px;
+    background-color: bisque;
+    border-radius: 15px;
+    border:none;
+}
+
+
+.gamegamebox{
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.gamebox{
+   
+    height: 370px;
+    width:370px;
+    border-radius: 30px;
+    padding: 10px;
+    background-color:cornsilk;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.box{
+    height:100px;
+    width:100px;
+    background-color: cadetblue;
+    border:none;
+    border-radius: 20px;
+    font-size:50px;
+    color: black;
+}
+#winner{
+    font-size: 80px;
+    height: 500px;
+    margin-bottom:50px ;
+    
+}
+
+
+.hide{
+    display: none;
+    
+    
+
+}
+
+.msgcontainer{
+    
+   text-align: center;
+
+}
